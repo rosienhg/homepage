@@ -1,0 +1,44 @@
+{
+  "services": [
+    {
+      "name": "Speak on Sonos",
+      "port": 8091,
+      "description": "Type a phrase: pick a Kokoro voice, or describe a voice for Qwen to design",
+      "icon": "🔊"
+    },
+    {
+      "name": "macdash",
+      "port": 8765,
+      "description": "System dashboard: metrics, processes, launchd, logs",
+      "icon": "📊"
+    },
+    {
+      "name": "llama.cpp",
+      "port": 8080,
+      "description": "llama-server web UI + OpenAI-compatible API",
+      "icon": "🦙"
+    },
+    {
+      "name": "Ollama",
+      "port": 11434,
+      "path": "/api/tags",
+      "description": "Ollama API (lists local models)",
+      "icon": "🦙"
+    },
+    {
+      "name": "Qwen Image",
+      "port": 8090,
+      "description": "Image generation server",
+      "icon": "🖼️"
+    }
+  ],
+  "ignore_ports": [
+    5000,
+    7000
+  ],
+  "ignore_processes": [
+    "ControlCenter",
+    "rapportd",
+    "sharingd"
+  ]
+}
